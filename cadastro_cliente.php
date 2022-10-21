@@ -17,7 +17,7 @@ $sql= "INSERT INTO cliente(nome,sobrenome,cnpj_cpf,cep,estado,cidade,bairro,rua,
     
     if(mysqli_query($conexao, $sql)){
         echo "Informações cadastradas com sucesso"."<br>";
-        echo "<a href="login.html>Ir para a página de login</a>";
+        echo "<a href="login.html">Ir para a página de login</a>";
     }
 
     else{
