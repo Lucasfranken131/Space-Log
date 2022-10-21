@@ -1,5 +1,5 @@
 <?php
-	include("protect.php");
+	include("protect_cliente.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt_br">
