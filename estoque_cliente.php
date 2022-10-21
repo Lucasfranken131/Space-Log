@@ -11,6 +11,7 @@
     <div>
 		<?php
 			include("conexao.php");
+	    		include("protect_cliente");
 		
 			$results_cadastro = 'SELECT * FROM estoque WHERE status = "disponivel"';
 			$resultados_cadastros = mysqli_query($conexao, $results_cadastro);
