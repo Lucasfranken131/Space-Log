@@ -13,7 +13,7 @@
     Bem vindo.
 	<a href="estoque_cliente.php">Movimentação</a>
 	<p>
-	<a href="logoutc.php">Desconectar da Conta</a>
+	<a href="logout_cliente.php">Desconectar da Conta</a>
 	</p>
 </body>
 </html> 
