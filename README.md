@@ -9,38 +9,38 @@ cadastro_cliente.php = Arquivo que irá enviar as informações do cadastro para
 
 conexao.php = Irá verificar se o usuário(cliente ou funcionário) conseguiu se conectar com o Banco de Dados.
 
-enviar.php =
+enviar.php = É o arquivo para o funcionário que insere novos produtos.
 
-estilo_itens.css = 
+estilo_itens.css = É o arquivo de estilo para os itens do estoque.
 
-estilocadastro.css = 
+estilocadastro.css = É o arquivo de estilo para a página do cadastro do cliente.
 
-estiloindex.css = 
+estiloindex.css = É o arquivo de estilo para o login do funcionário.
 
-estoque_cliente.php = 
+estoque_cliente.php = Arquivo para mostrar o estoque disponível para o cliente.
 
-estoque_funcionario.php =
+estoque_funcionario.php = Arquivo que mostra todo o estoque para o Funcionário.
 
-excluir.php = 
+excluir.php = Arquivo para o Funcionário poder excluir algum produto no estoque.
 
-home_cliente.php = 
+home_cliente.php = Página inicial do cliente.
 
-home_funcionario.php =
+home_funcionario.php = Página inicial para o Funcionário.
 
-index.html = 
+index.html = Página de login do Funcionário.
 
-login.html = 
+login.html = Página de login do cliente.
 
-login_check_cliente.php = 
+login_check_cliente.php = Arquivo que checa se o login do cliente foi preenchido corretamente.
 
-login_check_funcionario.php =
+login_check_funcionario.php = Arquivo que checa se o login do funcionário foi preenchido corretamente.
 
-logistica.sql =
+logistica.sql = Arquivo com o Banco de Dados(Desatualizado).
 
-logout.php = 
+logout.php = Arquivo que desconecta a conta do funcionário. 
 
-logout_cliente.php =
+logout_cliente.php = Arquivo que desconecta a conta do cliente.
 
-protect.php = 
+protect.php = Arquivo que proíbe a entrada em páginas se o funcionário não estiver logado.
 
-protect_cliente.php =
+protect_cliente.php = Arquivo que proíbe a entrada em páginas se o cliente não estiver logado.
