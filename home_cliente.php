@@ -11,7 +11,7 @@
 </head>
 <body>
     Bem vindo.
-	<a href="estoque_cliente.php">Movimentação</a>
+	<a href="estoque_cliente.php">Produtos</a>
 	<p>
 	<a href="logout_cliente.php">Desconectar da Conta</a>
 	</p>
