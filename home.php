@@ -11,7 +11,7 @@
 </head>
 <body>
     Bem vindo.
-	<a href="index2.php">Movimentação</a>
+	<a href="estoque_funcionario.php">Movimentação</a>
 	<p>
 		<a href="logout.php">Desconectar da Conta</a>
 	</p>
