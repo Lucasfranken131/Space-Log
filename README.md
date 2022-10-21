@@ -1,7 +1,7 @@
 # Trabalho Logística
 Estamos fazendo um sistema de logística.
 
-A função de cada arquivo na ordem alfabética:
+A função de cada arquivo em ordem alfabética:
 
 cadastro.html = Página onde o cliente irá criar sua conta.
 
