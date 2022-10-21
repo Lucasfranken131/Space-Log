@@ -1,7 +1,7 @@
 -- phpMyAdmin SQL Dump
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
---
+--Gustavo lindo/Gabriel gostoso/carlos fortão
 -- Host: 127.0.0.1
 -- Tempo de geração: 20-Out-2022 às 02:21
 -- Versão do servidor: 10.4.24-MariaDB
