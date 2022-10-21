@@ -20,7 +20,7 @@
 			$cpf = $conexao->real_escape_string($_POST['cpf']);
 			$senha = $conexao->real_escape_string($_POST['senha']);
 			
-			$sql_code = "SELECT * FROM cliente WHERE cpf = '$cpf' AND senha = '$senha'";
+			$sql_code = "SELECT * FROM cliente WHERE cnpj_cpf = '$cpf' AND senha = '$senha'";
 			$sql_query = $conexao->query($sql_code) or die("Falha na execução de código SQL ".$conexao->error);
 			
 			$quantidade = $sql_query->num_rows;
