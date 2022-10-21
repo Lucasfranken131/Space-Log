@@ -34,7 +34,7 @@
 				$_SESSION['id'] = $usuario['id'];
 				$_SESSION['cpf'] = $usuario['cpf'];
 				
-				header("Location: home.php");
+				header("Location: home_funcionario.php");
 				
 			}
 			else{
