@@ -25,6 +25,7 @@
 	
 		<?php
 			include("conexao.php");
+	    		include("protect.php");
 		
 			$results_cadastro = 'SELECT * FROM estoque';
 			$resultados_cadastros = mysqli_query($conexao, $results_cadastro);
