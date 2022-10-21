@@ -26,7 +26,7 @@
 		<?php
 			include("conexao.php");
 		
-			$results_cadastro = 'SELECT * FROM estoque WHERE status = disponivel';
+			$results_cadastro = 'SELECT * FROM estoque WHERE status = "disponivel"';
 			$resultados_cadastros = mysqli_query($conexao, $results_cadastro);
 
 			while($rows_cadastros = mysqli_fetch_array($resultados_cadastros)){
