@@ -9,20 +9,6 @@
 </head>
 <body>
     <div>
-		<form action="enviar.php" method="post">
-			<input type="text" name="id" placeholder="Id produto">
-			<br>
-			<input type="text" name="nome_produto" placeholder="Nome produto">
-			<br>
-			<input type="submit" value="Enviar">
-			</form>
-			<br>
-		<form action="excluir.php" method="post">
-			<input type="text" name="id" placeholder="Id produto">
-			<br>
-			<input type="submit" value="Excluir">
-		</form>
-	
 		<?php
 			include("conexao.php");
 		
