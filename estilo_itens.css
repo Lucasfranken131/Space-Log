@@ -1,4 +1,21 @@
-.itens{
-	color:red;
-	border:2px solid black;
+.id{
+	color:black;
+	border:1px solid white;
+}
+
+.produto{
+	color:black;
+	border:1px solid white;
+}
+
+.status{
+	color:black;
+	border:1px solid white;
+}
+
+.conteiner{
+	background-color:#00BFFF;
+	border:1px solid black;
+	display:flex;
+	flex-direction:column;
 }
