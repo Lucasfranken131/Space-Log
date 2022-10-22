@@ -31,8 +31,8 @@
 			$resultados_cadastros = mysqli_query($conexao, $results_cadastro);
 
 			while($rows_cadastros = mysqli_fetch_array($resultados_cadastros)){
-				echo '<div class="itens">';
-				echo $rows_cadastros['id']." - ".$rows_cadastros['nome_produto'];
+				echo "<div class='conteiner'>";
+				echo "<div class='conteiner'>"."<div class='id'>".$rows_cadastros['id']."</div>"."<div class='produto'>".$rows_cadastros['nome_produto']."</div>"."<div class='status'>".$rows_cadastros['status']."</div>";
 				echo '</div>';
 			}
 		?>	
