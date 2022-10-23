@@ -20,6 +20,15 @@
 				echo "Entregar para: ".$local_pull_get['cep']." - ".$local_pull_get['estado']." - ".$local_pull_get['cidade']." - ".$local_pull_get['bairro']." - ".$local_pull_get['rua']." - ".$local_pull_get['numero'];
 				echo "<br><button><a href='estoque_cliente.php'>Confirmar compra</button>";
 			}
+			$id = $_POST['id'];
+			$nome_produto = $_POST=['nome_produto'];
+			
+			$sql = "UPDATE estoque SET status = 'comprado' WHERE id = '$id'"; 
+				if(!mysqli_query($conexao,$sql)){
+					echo "Não foi possível realizar a compra".mysqli_connect_error($conexao);
+				}
+				else{
+				}
 		?>	
     </div>
 </body>
