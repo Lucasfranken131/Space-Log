@@ -15,7 +15,7 @@
   <div class="box">
     <div class="formulario">
   	<form action="enviar.php" method="post">
-		<input type="text" name="id_estoque" placeholder="Id produto">
+		<input type="text" name="id" placeholder="Id produto">
 		<br>
 		<input type="text" name="nome_produto" placeholder="Nome produto">
 		<br>
@@ -24,7 +24,7 @@
 	</form>
 	<br>
 	<form action="excluir.php" method="post">
-		<input type="text" name="id_estoque" placeholder="Id produto">
+		<input type="text" name="id" placeholder="Id produto">
 		<br>
                 <br>
 		<input type="submit" value="Excluir" class="botao">
