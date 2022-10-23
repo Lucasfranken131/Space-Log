@@ -30,25 +30,6 @@
 		<input type="submit" value="Excluir" class="botao">
       		<br>
     	</form>
-    	<form action="acrescentar.php" method="post">
-		<input type="text" name="id" placeholder="Id produto">
-		<br>
-		<input type="text" name="nome_produto" placeholder="Nome produto">
-		<br>
-		<input type="number" name="quantidade" placeholder="Quantidade">
-		<br>
-		<input type="submit" value="Acrescentar quantidade">
-	</form>
-	<br>
-	<form action="subtrair.php" method="post">
-		<input type="text" name="id" placeholder="Id produto">
-		<br>
-		<input type="text" name="nome_produto" placeholder="Nome produto">
-		<br>
-		<input type="number" name="quantidade" placeholder="Quantidade">
-		<br>
-		<input type="submit" value="Subtrair Quantidade">
-	</form>
 </div>
 <br>
 		<?php
