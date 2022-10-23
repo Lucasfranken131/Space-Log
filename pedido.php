@@ -17,7 +17,8 @@
 			$local = "SELECT * FROM cliente WHERE id_cliente = '$usuario'";
 			$local_pull = mysqli_query($conexao, $local);
 			while($local_pull_get = mysqli_fetch_array($local_pull)){
-				echo "Seu endereço: ".$local_pull_get['cep']." - ".$local_pull_get['estado']." - ".$local_pull_get['cidade']." - ".$local_pull_get['bairro']." - ".$local_pull_get['rua']." - ".$local_pull_get['numero'];
+				echo "Entregar para: ".$local_pull_get['cep']." - ".$local_pull_get['estado']." - ".$local_pull_get['cidade']." - ".$local_pull_get['bairro']." - ".$local_pull_get['rua']." - ".$local_pull_get['numero'];
+				echo "<br><button><a href='estoque_cliente.php'>Confirmar compra</button>";
 			}
 		?>	
     </div>
