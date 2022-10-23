@@ -6,7 +6,7 @@ head{
 
 body{
 	  margin-top: 20px;
-    color:#595959;
+    color: #595959;
     height: 50px;
     font-family: 'Jost', sans-serif;
     background-color: #F2F2F2;
@@ -45,6 +45,7 @@ body{
 		display: flex;
 	  justify-content: center;
 		text-align: center;
+
 		}
 
 	.box {
@@ -53,6 +54,7 @@ body{
 	height: 230px;
 	background: #00AFEF;
   justify-content: center;
+  border-radius: 10px;
 	}
 
 .formulario {
