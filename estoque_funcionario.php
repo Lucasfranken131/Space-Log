@@ -15,21 +15,40 @@
   <div class="box">
     <div class="formulario">
   	<form action="enviar.php" method="post">
-			<input type="text" name="id_estoque" placeholder="Id produto">
-			<br>
-			<input type="text" name="nome_produto" placeholder="Nome produto">
-			<br>
-      <br>
-			<input type="submit" value="Enviar" class="botao">
-			</form>
-			<br>
-		<form action="excluir.php" method="post">
-			<input type="text" name="id_estoque" placeholder="Id produto">
-			<br>
-      <br>
-			<input type="submit" value="Excluir" class="botao">
-      <br>
-    </form>
+		<input type="text" name="id_estoque" placeholder="Id produto">
+		<br>
+		<input type="text" name="nome_produto" placeholder="Nome produto">
+		<br>
+        	<br>
+		<input type="submit" value="Enviar" class="botao">
+	</form>
+	<br>
+	<form action="excluir.php" method="post">
+		<input type="text" name="id_estoque" placeholder="Id produto">
+		<br>
+                <br>
+		<input type="submit" value="Excluir" class="botao">
+      		<br>
+    	</form>
+    	<form action="acrescentar.php" method="post">
+		<input type="text" name="id" placeholder="Id produto">
+		<br>
+		<input type="text" name="nome_produto" placeholder="Nome produto">
+		<br>
+		<input type="number" name="quantidade" placeholder="Quantidade">
+		<br>
+		<input type="submit" value="Acrescentar quantidade">
+	</form>
+	<br>
+	<form action="subtrair.php" method="post">
+		<input type="text" name="id" placeholder="Id produto">
+		<br>
+		<input type="text" name="nome_produto" placeholder="Nome produto">
+		<br>
+		<input type="number" name="quantidade" placeholder="Quantidade">
+		<br>
+		<input type="submit" value="Subtrair Quantidade">
+	</form>
 </div>
 <br>
 		<?php
