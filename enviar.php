@@ -7,7 +7,7 @@ $sql= "INSERT INTO estoque(id,nome_produto)
         
         if(mysqli_query($conexao, $sql)){
             echo "Produto inserido com sucesso"."<br>";
-            echo "<a href='home_funcionario.php'>Voltar para a Home</a>";
+            echo "<a href='estoque_funcionario.php'>Voltar para o estoque.</a>";
         }
 
     else{
