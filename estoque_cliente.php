@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
 	<link rel="stylesheet" href="estiloitens.css">
+	<link rel="stylesheet" href="estilocadastro.css>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movimentação</title>
