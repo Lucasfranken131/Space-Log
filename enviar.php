@@ -11,7 +11,7 @@ $sql= "INSERT INTO estoque(id,nome_produto)
 			if(mysqli_query($conexao, $atualizar)){
 				echo "Produto inserido com sucesso. <br>";
 				echo "Status atualizado com sucesso. <br>";
-				echo "<a href='home_funcionario.php'>Voltar para a Home</a><br>";
+				echo "<a href='estoque_funcionario.php'>Voltar para a Home</a><br>";
 			}	
 			else{
 				echo "ERRO".mysqli_connect_error($conexao);
