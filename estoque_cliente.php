@@ -17,7 +17,7 @@
 	    	while($rows_cadastros = mysqli_fetch_array($resultados_cadastros)){
 			echo '<form action="pedido.php" method="post">';
 			echo '<div class="conteiner">';
-			echo '<div class="id">'.$rows_cadastros['id'].'</div>'.'<div class="produto">'.'Nome Produto = '.$rows_cadastros['nome_produto'].'</div>'.'<div class="quantidade">'.'Quantidade = '.$rows_cadastros['quantidade'].'</div>';
+			echo '<div class="id">'.$rows_cadastros['id'].'</div>'.'<div class="produto">'.'Nome Produto = '.$rows_cadastros['nome_produto'].'</div>';
 			echo '<input type="submit" value="Comprar">';
 			echo '<br>';
 			echo '</div>';
