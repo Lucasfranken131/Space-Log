@@ -2,31 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<link rel="stylesheet" href="estilo_itens.css">
+    <link rel="stylesheet" href="estiloitens.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.png">
+    <img src="logopng.png"  alt="Logo" class="img" />
     <title>Movimentação</title>
 </head>
+
 <body>
-    <div>
-		<form action="enviar.php" method="post">
-			<input type="text" name="id" placeholder="Id produto">
+  <div class="container">
+  <div class="box">
+    <div class="formulario">
+  	<form action="enviar.php" method="post">
+			<input type="text" name="id_estoque" placeholder="Id produto">
 			<br>
 			<input type="text" name="nome_produto" placeholder="Nome produto">
 			<br>
-			<input type="submit" value="Enviar">
+      <br>
+			<input type="submit" value="Enviar" class="botao">
 			</form>
 			<br>
 		<form action="excluir.php" method="post">
-			<input type="text" name="id" placeholder="Id produto">
+			<input type="text" name="id_estoque" placeholder="Id produto">
 			<br>
-			<input type="submit" value="Excluir">
-		</form>
-	
+      <br>
+			<input type="submit" value="Excluir" class="botao">
+      <br>
+    </form>
+</div>
+<br>
 		<?php
 			include("conexao.php");
 	    		include("protect.php");
-		
+
 			$results_cadastro = 'SELECT * FROM estoque';
 			$resultados_cadastros = mysqli_query($conexao, $results_cadastro);
 
@@ -35,7 +44,8 @@
 				echo "<div class='conteiner'>"."<div class='id'>".$rows_cadastros['id']."</div>"."<div class='produto'>".$rows_cadastros['nome_produto']."</div>"."<div class='status'>".$rows_cadastros['status']."</div>";
 				echo '</div>';
 			}
-		?>	
-    </div>
+		?>
+  </div>
+</div>
 </body>
 </html>
