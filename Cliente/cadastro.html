@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilocadastro.css">
+    <script src="check_isset.js"></script>
+    <link rel="shortcut icon" href="icone.png">
+</head>
+<body>
+    <center>
+        <img src="logopng.png"  alt="Logo" class="img" />
+        <div class="center">
+        <h1>Registro</h1>
+        <br>
+        <form action="cadastro_cliente.php" method="post" name="cadastro">
+            <input type="text" name="nome" id="name" placeholder="Nome">
+            <br>
+            <br>
+            <input type="text" name="sobrenome" placeholder="Sobrenome">
+            <br>
+            <br>
+            <input type="text" name="cnpj_cpf" placeholder="CPF/CNPJ" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+            <br>
+            <br>
+            <h2>Endereço</h2>
+            <input type="text" name="cep" placeholder="CEP">
+            <br>
+            <br>
+            <input type="text" name="estado" placeholder="Estado">
+            <br>
+            <br>
+            <input type="text" name="cidade" placeholder="Cidade">
+            <br>
+            <br>
+            <input type="text" name="bairro" placeholder="Bairro">
+            <br>
+            <br>
+            <input type="text" name="rua" placeholder="Rua">
+            <br>
+            <br>
+            <input type="number" name="numero" placeholder="Número">
+            <br>
+            <br>
+            <input type="text" name="complemento" placeholder="Complemento">
+            <br>
+            <br>
+            <input type="text" name="senha" placeholder="Senha">
+            <br>
+	        <br>
+            <br>
+            <input type="submit" class="botao" value="Cadastrar" onclick="checkForm();">
+            <br>
+            <br>
+            <input type="reset" class="botao" name="limpar" value="Limpar">
+        </form>
+        </div>
+    </center>
+</body>
+</html>
