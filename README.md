@@ -1,4 +1,2 @@
 # Trabalho Logística
-Estamos fazendo um sistema de logística.
-
-Oi
+Sistem de Logística usando PHP e MariaDB
